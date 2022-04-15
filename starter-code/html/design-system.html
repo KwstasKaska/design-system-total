@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./assets/favicon-32x32.png"
+    />
+
+    <title>Frontend Mentor | Space tourism website</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Barlow&family=Barlow+Condensed&family=Bellefair&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="../css/index.css" />
+  </head>
+  <body>
+    <div class="container">
+      <h1>Design System</h1>
+
+      <section id="colors">
+        <h2 class="numbered-title"><span>01</span>colors</h2>
+        <div class="flex">
+          <div
+            style="
+              padding: 3rem 1rem 1rem;
+              border: 1px solid white;
+              color: #0b0d17;
+            "
+          >
+            #0B0D17
+          </div>
+          <p><span class="text-accent">RGB</span> 11,13,23</p>
+          <p><span class="text-accent">HSL</span> 230,35%,7%</p>
+        </div>
+      </section>
+
+      <section id="typography" style="margin: 4rem 0">
+        <h2 class="numbered-title"><span>02</span>Typography</h2>
+        <div class="flex">
+          <div class="flow" style="flex-basis: 100%">
+            <div>
+              <p class="text-accent">Heading 1 - Bellefair Regular - 150px</p>
+              <p class="fs-900 uppercase ff-serif">Earth</p>
+            </div>
+            <div>
+              <p class="text-accent">Heading 2 - Bellefair Regular - 100px</p>
+              <p class="fs-800 uppercase ff-serif">Venus</p>
+            </div>
+            <div>
+              <p class="text-accent">Heading 3 - Bellefair Regular - 56px</p>
+              <p class="fs-700 uppercase ff-serif">Jupiter & Saturn</p>
+            </div>
+            <div>
+              <p class="text-accent">Heading 4 - Bellefair Regular - 32px</p>
+              <p class="fs-600 uppercase ff-serif">Uranus, Neptune & Pluto</p>
+            </div>
+            <div>
+              <p class="text-accent">
+                Heading 5 - Barlow Condensed Regular - 28px -4,75 Character
+                Space
+              </p>
+              <p class="fs-500 uppercase ff-sans-cond letter-spacing-1">
+                Earth
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <div class="flow" id="interactive-elements">
+        <h2 class="numbered-title"><span>03</span>interactive-elements</h2>
+
+        <!-- Navigation -->
+        <div>
+          <nav>
+            <ul class="primary-navigation underline-indicators flex">
+              <li class="active">
+                <a class="uppercase txt-white letter-spacing-2" href="#"
+                  ><span>01</span>Active</a
+                >
+              </li>
+              <li>
+                <a class="uppercase txt-white letter-spacing" href="#"
+                  ><span>02</span>Hovered</a
+                >
+              </li>
+              <li>
+                <a class="uppercase txt-white letter-spacing" href="#"
+                  ><span>03</span>Idle</a
+                >
+              </li>
+            </ul>
+          </nav>
+        </div>
+
+        <div class="flex">
+          <div style="margin-top: 5rem">
+            <!-- explore button -->
+            <a
+              href="#"
+              class="large-button uppercase ff-serif txt-dark bg-white fs-600"
+              >Explore</a
+            >
+          </div>
+        </div>
+        <div style="margin-bottom: 50vh">
+          <!-- Tabs -->
+
+          <!-- Dots -->
+
+          <!-- Numbers -->
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
+
+<!-- First example
+      <div class="bg-accent txt-dark" style="padding: 1rem">
+        light blue bg, with dark text
+      </div>
+      <div class="bg-white txt-dark" style="padding: 1rem">
+        white bg, with dark text
+      </div>
+      <div
+        class="txt-white"
+        style="padding: 1rem; background-color: hsl(var(--clr-light) / 0.2)"
+      >
+        light blue bg with a 20% alpha and white text
+      </div>
+-->
